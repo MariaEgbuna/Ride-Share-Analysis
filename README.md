@@ -258,8 +258,6 @@ SurgeImpact
 
 **Insight:** Surge pricing results in a slightly higher average fare per ride. While only a fraction of rides occur during surge periods, these rides contribute significantly to total revenue, highlighting the financial impact of dynamic pricing strategies.
 
-![Surge Price Analysis](Images/SurgePrice.png)
-
 * Which payment methods are most commonly used?
 
 ``` python
