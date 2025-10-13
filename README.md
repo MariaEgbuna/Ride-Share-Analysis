@@ -1,7 +1,5 @@
 # Optimizing Ride-Sharing Performance & Customer Experience
 
-![Ride Share](<Images/Ride Share.jpg>)
-
 The goal is to enhance ride efficiency, optimize pricing strategies, and improve customer satisfaction. By analyzing **Ride Sharing Dataset**, I uncovered key insights into user behavior, driver performance, and operational bottlenecks. This will allow the ride share platform to make data-driven decisions that drive growth and efficiency.
 
 ## Tools Used
