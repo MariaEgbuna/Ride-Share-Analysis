@@ -1,6 +1,6 @@
 # Optimizing Ride-Sharing Performance & Customer Experience
 
-The goal is to enhance ride efficiency, optimize pricing strategies, and improve customer satisfaction. By analyzing **Ride Sharing Dataset**, I uncovered key insights into user behavior, driver performance, and operational bottlenecks. This will allow the ride share platform to make data-driven decisions that drive growth and efficiency.
+Uncovering key insights into user behaviour, driver performance, and operational bottlenecks. This will allow the ride share platform to make data-driven decisions that drive growth and efficiency.
 
 ## Exploratory Data Analysis
 
@@ -19,13 +19,13 @@ The goal is to enhance ride efficiency, optimize pricing strategies, and improve
 ## 2. Customer Behavior & Preferences
 
 * **Popular Pickup and Drop-off Locations**  
-Movement concentrates between Suburbs and the Financial District. Bidirectional commuter flow dominates, with intra-suburb travel forming a secondary cluster. Mall-related routes sit at the lower end of demand.
+Most trips move between the Suburbs and the Financial District, showing a clear commuter pattern. Local travel within the Suburbs is also common, while mall-related trips occur less often.
 
 * **Weekends vs. Weekdays Ride Demand**  
-Demand is weekday-centric. The business week anchors ride volume, while weekends show a pronounced drop, exposing a structural dependence on commuter activity.
+Ride activity is heavily tied to the workweek. Weekdays carry most of the volume, and weekends fall off sharply, pointing to a commuter-driven customer base.
 
 * **Most Preferred Vehicle Types**  
-Sedans and SUVs form the core fleet demand. All other vehicle categories contribute marginally and reflect niche usage rather than primary preference.
+Sedans and SUVs handle most of the demand. Other vehicle types see lighter use and serve more specific needs rather than broad rider preference.
 
 ## 3. Driver Performance & Efficiency
 
@@ -46,24 +46,24 @@ Low-traffic periods correlate with the longest trips. High-traffic windows tilt 
 SUVs sit at the top of the pricing ladder, with Sedans and Electric rides forming the mid-tier. Shared and Motorcycle categories anchor the low-fare segment.
 
 * **Effect of Surge Pricing on Fares and Revenue**  
-Surge periods lift average fares and generate disproportionate revenue despite lower ride volume, confirming strong yield leverage from dynamic pricing.
+Surge periods raise the average fare and bring in notable revenue even though fewer rides occur during those times, showing how dynamic pricing strengthens overall earnings.
 
 * **Most Common Payment Methods**  
-Credit cards dominate transactions. Cash remains materially present. Mobile wallets form the smallest but still meaningful share.
+Credit cards are used most often, with cash still playing a sizable role. Mobile wallets make up the smallest share but remain a consistent option for many riders.
 
 ***
 
 ## 5. External Factors Impacting Rides
 
 * **Weather Impact on Duration and Ratings**  
-Thunderstorms stretch trip times and depress ratings. Clear conditions carry the largest share of rides with steadier satisfaction. Fog, rain, and snow shift metrics only slightly from baseline.
+Thunderstorms lead to longer trips and slightly lower ratings, likely due to tougher driving conditions. Clear weather brings the highest number of rides and more stable ratings, while fog, rain, and snow cause only minor changes.
 
 * **Traffic Level Impact on Duration and Fares**  
-Low-traffic windows correspond to longer, higher-fare trips. High-traffic intervals skew shorter and cheaper, indicating route mix rather than congestion severity as the main driver of duration.
+Low-traffic periods tend to involve longer trips with higher fares, while high-traffic times often involve shorter, less costly rides. The differences point more to the types of trips taken during each period than to traffic alone.
 
 ***
 
-## Tools Used
-
-* **Excel**: For the initial cleaning process.
-* **Python**: For Exploratory Data Analysis (EDA).
+**Analyst:** Maria Egbuna  
+**Date of Completion:** 24 November 2025  
+**Tools Used:** Excel, Python (pandas)  
+**Note:** This analysis provides an exploratory overview of ride-sharing patterns, including demand trends, vehicle preferences, pricing dynamics, driver performance, and operational metrics.
